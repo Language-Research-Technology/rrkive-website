@@ -343,6 +343,11 @@ enableRobotsTXT = true
     name = "Contact"
     url = "/contact/"
     weight = 3 
+  [[menu.main]]
+    identifier = "background"
+    name = "Background"
+    url = "/background/"
+    weight = 3 
 
 
     #  Search config
