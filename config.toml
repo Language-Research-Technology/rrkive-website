@@ -348,6 +348,11 @@ enableRobotsTXT = true
     name = "Background"
     url = "/background/"
     weight = 3 
+  [[menu.main]]
+    identifier = "background"
+    name = "Standards"
+    url = "/standards/"
+    weight = 3 
 
 
     #  Search config
