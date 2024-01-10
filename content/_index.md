@@ -14,14 +14,14 @@ The initial version of the site (Q1 2024) is intended to be the start of a conve
 
  Initially this is technical and word-heavy, but we aim to introduce some graphics to help explain the concepts -- once we have brought on board more collaborators and refined these principles.
 
-> In a data commons - where's the data?
+> In Data Commons - where do the data live?
 
-In research contexts, it has been common for investment to be prioritised in research tools for analysis and/or presentation, often at the cost of locking up data in software stacks that make re-use and long-term access difficult, or focus on short term projects with data without ensuring its longevity.
+In research contexts, it has been common for investment to be prioritized in research tools for analysis and/or presentation, often at the cost of locking up data in software stacks that make re-use and long-term access difficult, or focus on short term projects with data without ensuring its longevity.
 
 ## Core principles for a sustainable FAIR/CARE data commons architecture:
 
 An  overriding principle is to *Separate concerns between*:
-  a. Workspaces where data is collected, curated, described and analysed
+  a. Workspaces where data is collected, curated, described and analyzed
 
   b. Archival repositories that provide data persistence, persistent ID resolution and appropriate access control 
 
@@ -56,7 +56,7 @@ RRKive is mostly concerned with the Archival Repositories domain:
 
     1. Data may be indexed and made available locally (on a single machine or local network) via static websites, spreadsheets using a variety of approaches depending on the requirements and budget
 
-    1. Access control is provided by granting individuals the licenses described above – to avoid the risk of coding access control rules into a repository application in a way that creates lock-in.
+    1. Access control is provided by systems that enable the individuals to be *granted* the licenses described above – to avoid the risk of coding access control rules into a repository application in a way that creates lock-in.
 
 
-While LDaCA is part of the Humanitites and Social Sciences and Indigenous Research Data Commons, this vision is by no means limited to that scope -- these ideas are relevant to all research domains where data is available as file-based objects at a scale that can be managed in file system-like storage.
+While LDaCA is part of the Humanities and Social Sciences and Indigenous Research Data Commons, this vision is by no means limited to that scope -- these ideas are relevant to all domains where data is available as file-based objects at a scale that can be managed in file system-like storage.
