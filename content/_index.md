@@ -59,4 +59,4 @@ RRKive is mostly concerned with the Archival Repositories domain:
     1. Access control is provided by systems that enable the individuals to be *granted* the licenses described above – to avoid the risk of coding access control rules into a repository application in a way that creates lock-in.
 
 
-While LDaCA is part of the Humanities and Social Sciences and Indigenous Research Data Commons, this vision is by no means limited to that scope -- these ideas are relevant to all domains where data is available as file-based objects at a scale that can be managed in file system-like storage.
+While LDaCA is part of the Humanities and Social Sciences and Indigenous Research Data Commons, this vision is by no means limited to that scope -- these ideas are relevant to all cd cr   domains where data is available as file-based objects at a scale that can be managed in file system-like storage.
