@@ -23,7 +23,7 @@ more collaborators and refined these principles.
 
 Following the lead of Jenny Fewster, HASS and Indigenous Research Data
 Commons Director at the Australian Research Data Commons (ARDC) we use
-this definition for *Data Commons* Grossman et al. (2016):
+this definition for *Data Commons* (Grossman et al. (2016)):
 
 > A global trusted system of systems that provides frictionless access
 > to high quality interoperable resources, services and artefacts for
@@ -64,14 +64,17 @@ This site is about:
     Data Commons above.
 
 One of the key inspirations for RRKive was the approach taken by
-\[PARADISEC\] See the [background page](./background/) where data is
-stored and managed using a very simple architecture with data and
-metadata at its heart sitting, on top of commodity IT services;
-initially this was a file-system and is now cloud-based object storage.
-The key idea was that the data should always be available to
-administrators independently of particular software services (though
-because some data is not open it is not possible to just put data up on
-an open webserver -- mediation is needed).
+[PARADISEC](https://www.paradisec.org.au/about-us/) (Barwick and
+Thieberger (2018)) where data is stored and managed using a very simple
+architecture with data and metadata at its heart sitting, on top of
+commodity IT services; initially this was a file-system and is now
+cloud-based object storage. The key idea was that the data should always
+be available to administrators independently of particular software
+services (though because some data is not open it is not possible to
+just put data up on an open webserver -- mediation is needed).
+
+This site is based on a previous effort know as Arkisto, see the
+[background page](./background/).
 
 ## Scope: what people, domains, institutions, kinds and scales of data is this relevant for?
 
@@ -130,7 +133,7 @@ between*:
 1.  Keep data in a commodity IT storage system with more than one mode
     of access
 
-2.  Divide up data into chunks ("objects")
+2.  Divide up data into chunks ("objects", "items")
 
 3.  Keep metadata in a standard format adjacent to data files
 
@@ -178,7 +181,8 @@ Linked Data allows:
 1.  Any conceivable data structure to be described
 
 2.  Vocabularies to be mixed-in as needed; from a core set for all data
-    to domain-specific to project or even dataset-specific terms.
+    to domain-specific to project or even dataset-specific terms; this
+    can be formalised using *Profiles*.
 
 3.  Interoperability with global research information systems
     architectures, discovery services etc
@@ -188,6 +192,12 @@ Research Data Commons, this vision is by no means limited to that scope
 -- these ideas are relevant to all domains where data is available as
 file-based objects at a scale that can be managed in file system-like
 storage.
+
+## References {#references .unnumbered}
+
+Barwick, Linda, and Nick Thieberger. 2018. "Unlocking the Archives." In
+*Proceedings of the 2017 XXI FEL Conference*, 135--39. FEL.
+<https://nthieberger.net/UnlockingArchives.pdf>.
 
 Grossman, Robert L., Allison Heath, Mark Murphy, Maria Patterson, and
 Walt Wells. 2016. "A Case for Data Commons: Toward Data Science as a
