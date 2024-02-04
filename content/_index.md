@@ -171,7 +171,6 @@ between*:
     1. Access control is provided by systems that enable the individuals to be *granted* the licenses described above – to avoid the risk of coding access control rules into a repository application in a way that creates lock-in.
 
  -->
-
 ### Principle 3: Use an extensible linked-data metadata format
 
 Linked Data allows:
@@ -190,9 +189,7 @@ Research Data Commons, this vision is by no means limited to that scope
 file-based objects at a scale that can be managed in file system-like
 storage.
 
-
 Grossman, Robert L., Allison Heath, Mark Murphy, Maria Patterson, and
 Walt Wells. 2016. "A Case for Data Commons: Toward Data Science as a
 Service." *Computing in Science & Engineering* 18 (5): 10--20.
 <https://doi.org/10.1109/MCSE.2016.92>.
-
