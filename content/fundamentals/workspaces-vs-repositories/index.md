@@ -22,14 +22,16 @@ There is a fundamental distinction between repositories and workspaces
 
 Generic workspace examples include:
 
-- Survey tools (survey monkey, ReDCAP)
+- Survey tools (Survey Monkey, ReDCAP)
 - Electronic Lab Notebooks
-- Code environments (Juyter notebooks, Github*)
-- Research & Analytical Databases
+- Code environments (Jupyter notebooks, Binderhub, Github*, Matlab, R Studio)
+- Research & Analytical Databases**
 - "R: Drive" or similar storage
 - Cloud storage such as Dropbox, Google Drive or OneDrive
 
 *Yes, git uses "repositories" but these do _not_ function as archives -- don't assume Microsoft the owner of github will preserve research or other code
+
+**No a database is not necessarily a _repository_ (more on that below)
 
 
 
