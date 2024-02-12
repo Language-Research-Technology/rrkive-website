@@ -357,7 +357,7 @@ enableRobotsTXT = true
     identifier = "fundamentals"
     name = "Fundamental Concepts"
     url = "/fundamentals/"
-    weight = 5 
+    weight = 6
 
 
     #  Search config

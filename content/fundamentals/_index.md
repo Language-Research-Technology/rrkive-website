@@ -1,7 +1,5 @@
 ---
-
 title: Fundamental Concepts for RRKive
-
 ---
 
 The RRKive principles are based on some fundamental concepts
