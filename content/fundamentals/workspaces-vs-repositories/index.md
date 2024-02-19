@@ -15,7 +15,7 @@ The [FAIR](https://www.nature.com/articles/sdata201618) and/or [CARE](https://st
 
 
 
- not a DIY manual for researchers - to implement a system that supports CARE and FAIR research requires development of infrastructure. They
+These principles are not a DIY manual that can be simply adopted by researchers - to implement a system that supports CARE and FAIR research requires development of infrastructure and a governance frameworks. The RRKive principles and website are aimed at those undertaking these substantials tasks.
 
 
 
@@ -71,7 +71,7 @@ Those working with Indigenous data have a responsibility to share how those data
 
    Resources must be provided to generate data grounded in the languages, worldviews, and lived experiences (including values and principles) of Indigenous Peoples.
 
-#  Ethics
+#  Care Principles - Ethics
 
 Indigenous Peoples’ rights and wellbeing should be the primary concern at all stages of the data life cycle and across the data ecosystem. 
 -  E1: 	For minimizing harm and maximizing benefit 
