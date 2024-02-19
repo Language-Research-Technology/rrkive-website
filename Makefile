@@ -3,3 +3,6 @@ home:
 	sed -i.old -r '/^```/d' content/_index.md 
 	sed -i.old -r '/^:::/d' content/_index.md
 	# TODO: fix page, remove extraneous stuff
+
+pres:
+	
