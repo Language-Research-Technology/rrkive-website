@@ -3,6 +3,8 @@ title: Use Cases, Software Architecture and Deployment Patterns
 
 ---
 
+(This page is a work in progress, first version is a quick update from the Arkisto website: will be updated with fresh examples in Q2 2024)
+
 There are multiple use cases for RRKive which we will document in the abstract, in addition to the specific [case studies](/case-studies/) we're already working on. Due to its standards-based and extensible nature, RRKive can realise the goal of making data [FAIR](https://www.force11.org/group/fairgroup/fairprinciples) (Findable, Accessible, Interoperable, Re-usable).
 
 # The (mythical) minimal RRKive platform
