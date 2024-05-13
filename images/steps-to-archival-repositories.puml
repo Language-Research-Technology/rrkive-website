@@ -1,0 +1,63 @@
+
+@startuml
+!include_many ./data-management-style.txt
+
+title: 3 Steps to PILARS-style Archival-Repositories\n(Turn that R: drive into an `RRKive`)
+start
+
+:1: Organize data\ninto "Digital Objects";
+note right
+Make "Folders":
+-  Manageable sized objects
+-  Treat collections as metadata-only
+   objects
+-  Common access conditions
+   (licensing) per object 
+end note
+if (Add more archival features) then 
+note right
+Oxford Common File Layout (OCFL)
+adds version control and content
+integrity features
+end note
+     :1a: Choose an alternative\neg Bagit manifests in folders;
+  else 
+:1a: Use OCFL;
+     
+endif
+:2: Add metadata\nfor each object;
+note right
+- License
+- Assign IDs (DOIs etc)
+- Object<->Collection relationships 
+- Who, what where
+- File descriptions
+- Provenance
+end note
+
+note left
+RO-Crate metadata tools:
+- Forms
+- Spreadsheets
+- Batch crosswalk scripts
+end note
+
+:🎉 PILANS ready 🎉\n        status achieved ;
+note right
+Ready for institutional storage service or
+other well-governed storage
+end note
+
+
+
+:3: Index and catalogue the `RRKive`;
+note right
+Choose according to your means/requirements:
+- Simple spreadsheet based summaries
+- Portable database catalogues
+- Access controlled API with license manager
+- Full search features a la LDaCA/PARADISEC
+- IDN-style "Data Catalogue"
+- More coming ...
+end note
+@enduml
