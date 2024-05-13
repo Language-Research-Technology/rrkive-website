@@ -1,5 +1,6 @@
 
 @startuml
+!include_many ./data-management-style.txt
 
 title: 3 Steps to PILARS-style Archival-Repositories\n(Turn that R: drive into an `RRKive`)
 start
