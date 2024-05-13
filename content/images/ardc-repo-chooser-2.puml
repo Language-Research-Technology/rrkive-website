@@ -15,7 +15,7 @@ Domain sepecific repositories are few and far between
 end note
 
 
-if (Select/Identify a Subject\nor Domain Specific Repository\n\neg PARADISEC / ADA / ???) then (Yes)
+if (Select/Identify a Subject\nor Domain Specific Repository\n\neg PARADISEC /\nAustralian Data Archive / ???) then (Yes)
 
 :Use it;
 
@@ -24,7 +24,7 @@ if (Select/Identify a Subject\nor Domain Specific Repository\n\neg PARADISEC / A
 
 
 else (no)
- if (Use an institutional\ndata repository) then (no)
+ if (Use an institutional\ndata repository available) then (no)
 note right
 
 Generalist & Insitutional Repositories typically:
@@ -41,7 +41,7 @@ end note
 
 
  else (no)
-    :\n\nJoin LDaCA in using open source\nstandards based solutions?\n\n;
+    :\nUse RRKive approach and implement\n                PILARS\n;
     stop
  endif
  else (yes)

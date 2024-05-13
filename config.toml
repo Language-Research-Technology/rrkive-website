@@ -348,16 +348,22 @@ enableRobotsTXT = true
     name = "Background"
     url = "/background/"
     weight = 4 
+
+  [[menu.main]]
+    identifier = "adoption"
+    name = "Adoption"
+    url = "/adoption/"
+    weight = 5 
   [[menu.main]]
     identifier = "standards"
     name = "Standards"
     url = "/standards/"
-    weight = 5 
+    weight = 6 
   [[menu.main]]
     identifier = "fundamentals"
     name = "Fundamental Concepts"
     url = "/fundamentals/"
-    weight = 6
+    weight = 7
 
 
     #  Search config

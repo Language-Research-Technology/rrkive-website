@@ -1,5 +1,4 @@
 ---
-bibliography: /Users/pt/Dropbox/Zotero-library.bib
 date: 2024
 draft: false
 title: RRKive Home
