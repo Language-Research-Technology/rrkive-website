@@ -9,4 +9,3 @@ RRKive is an evolution of of the [Arkisto website](https://arkisto-platform.gith
 While LDaCA has successfully implemented a range of tools that implement the named Arkisto standards, full adoption of the initial standards stack did not suit all partners and the principles were not fully articulated, so with RRKive we aim to clearly separate principles & requirements from choice of standards, and from implementation in code.
 
 
-

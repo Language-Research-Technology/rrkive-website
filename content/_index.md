@@ -5,19 +5,13 @@ draft: false
 title: RRKive Home
 ---
 
-# THIS IS A DRAFT / Work in progress that LDaCA staff are preparing for a workshop in early February 2024 -- if you have suggestions, or issues - please open issues on our [github project](https://github.com/Language-Research-Technology/rrkive-website)
 
-The RRKive.org website is an initiative of the Language Data Commons of
-Australia; one of the partners of the [Australian Research Data Commons
-(ARDC)](https://ardc.edu.au). The initial version of the site (Q1 2024)
-is intended to be the start of a conversation with our partners and
-stakeholders, inviting them to critique and refine these principles with
-a view to collective adoption as part of manifesto, and/or standard
-architecture for Data Commons.
 
-Initially this is technical and word-heavy, but we aim to introduce some
-graphics to help explain the concepts -- once we have brought on board
-more collaborators and refined these principles.
+This site collects resources related to implementing Archival Repository (RRKive) solutions as part of a *Data Commons* based on a set of Protocols know as [PILARS]: Principles for Implementing Long-term Archival Repository Services.  <https://w3id.org/ldac/pilars>
+
+The PILARS protocols are maintained as stand-alone project managed in a [Git repository](https://github.com/Language-Research-Technology/pilars).
+
+[PILARS]: https://w3id.org/ldac/pilars "Principles for Implementing Long-term Archival Repository Services"
 
 # What's a Data Commons and where's the data in one?
 
@@ -38,10 +32,12 @@ The abstract of this article says:
 
 NOTE: This definition differs from others in that it does not use the
 word "open", which is important, as not all research data can be made
-openly available; according to the \[FAIR\] and \[CARE\] principles can
+openly available; according to the [CARE and FAIR] principles can
 and should be made accessible to the *right* people / agents. For some
-background on FAIR and CARE see this [LDaCA blog
+background on CARE and FAIR in a Data Commons context see this [Language Data Commons of Australia blog
 post](https://www.ldaca.edu.au/posts/fair-and-care/).
+
+[CARE and FAIR]: https://language-research-technology.github.io/pilars/principles.html "CARE and FAIR principles (Annotated for PILARS)"
 
 This web site looks at the *core services* and infrastructure needed to
 undertake the processes mentioned in the definition: managing,
@@ -52,8 +48,7 @@ where the data resides in a Data Commons.
 
 This site is about:
 
-1.  A set of principles and an architectural vision for sustainable Data
-    Commons deployments, particularly for data management.
+1. Implementation advice for the PILARS protocols.
 
 2.  A toolkit for deploying granular sustainable archival repository
     software which can describe and make data accessible down to and
@@ -63,7 +58,7 @@ This site is about:
 3.  Enabling the 'interoperability' mentioned in the definition of a
     Data Commons above.
 
-One of the key inspirations for RRKive was the approach taken by
+One of the key inspirations for [PILARS] was the approach taken by
 [PARADISEC](https://www.paradisec.org.au/about-us/) (Barwick and
 Thieberger (2018)) where data is stored and managed using a very simple
 architecture with data and metadata at its heart sitting, on top of
@@ -71,9 +66,9 @@ commodity IT services; initially this was a file-system and is now
 cloud-based object storage. The key idea was that the data should always
 be available to administrators independently of particular software
 services (though because some data is not open it is not possible to
-just put data up on an open webserver -- mediation is needed).
+just put data up on an open webserver -- access control is needed).
 
-This site is based on a previous effort know as Arkisto, see the
+This site is an evolution of a previous effort know as Arkisto, see the
 [background page](./background/).
 
 ## Scope: what people, domains, institutions, kinds and scales of data is this relevant for?
@@ -91,9 +86,7 @@ with some "sciencey" and generalist deployments.
 ## Not in scope
 
 There are a number of data management / Data Commons scenarios where
-this will be less relevant.
-
-Parts of this site are less relevant for domains where very bit of
+this will be less relevant; where very bit of
 existing and prospective data, and all analytical products and
 annotations have an identified home with:
 
@@ -106,100 +99,7 @@ annotations have an identified home with:
 -   APIs to integrate and interoperate with analytical and data curation
     processes
 
-## Core principles for a sustainable FAIR/CARE data commons architecture:
+The RRKive.org website is an initiative of the Language Data Commons of
+Australia; one of the partners of the [Australian Research Data Commons
+(ARDC)](https://ardc.edu.au). 
 
-In research contexts, it has been common for investment to be
-prioritized in research tools for analysis and/or presentation, often at
-the cost of locking up data in software stacks that make re-use and
-long-term access difficult, or focus on short term projects with data
-without ensuring its longevity. Research teams and IT professionals
-often focus on product -- doing novel analyses using data flows and
-integration without putting in place the services needed for research
-integrity; assigning IDs and ensuring that those IDs resolve to data
-over the long term.
-
-### Principle 1: Separate Archival Storage FUNCTIONS from Workspaces
-
-An overriding principle for the RRKive approach is to *Separate concerns
-between*:
-
-1.  Workspaces where data is collected, curated, described and analyzed
-
-2.  Archival repositories that provide data persistence, persistent ID
-    resolution and appropriate access control
-
-### Principle 2: Ensure Archival Repository storage is not locked to a single software stack
-
-1.  Keep data in a commodity IT storage system with more than one mode
-    of access
-
-2.  Divide up data into chunks ("objects", "items")
-
-3.  Keep metadata in a standard format adjacent to data files
-
-4.  Aim for "rebuildability" of services (eg catalogues & access
-    control) from the storage system
-
-5.  Include a natural-language license with each object setting out how
-    data may be used and/or redistributed and by WHOM
-
-<!-- 
-1. Data storage must follow a documented standard so that services can be rebuilt if needed; this is important as experience has show us that systems rarely live beyond 10 - 15 years, and this approach reduces the risk of losing access to data,
-
-
-    1. Data is organized as digital objects.  
-
-      1. Collections are represented  as storage-level objects; either self contained or as metadata referencing other storage-level objects. 
-
-      1. Storage directory-like hierarchies may group data together in collections or by “owner” on similar paths; to aid in moving data between services using file-system tools (unlike approaches which completely obscure all meaning in paths eg the default OCFL settings).
-
-    1. There is a documented way to resolve identifiers to digital objects even offline or when services are no longer available
-    
-    1.  Each data object has a natural language license which sets out rules for re-use - for non-Open Access data an authorization service must be implemented if data are put on the internet
-
-1. Metadata must use a documented linked-data standard (eg RO-Crate – based on Schema.org for discovery metadata  and the Portland Common Data model for intra-repository collection/object relationships).
-    
-    1. with object-level metadata adjacent to any files or data assets (typically in a directory in the storage service)
-
-    1. Data is described at least at the object level, and may be described at the file or variable level within files
-
-1. Software
-
-    1. The storage service MUST have at least one software tool  to (i) list all objects and (ii) retrieve metadata and data from an object.
-
-    1. Data SHOULD be indexable and made available locally (on a single machine or local network) via static websites, spreadsheets using a variety of approaches depending on the requirements and budget, using freely available tools
-
-    1. Data MAY be made available via simple APIs. 
-
-    1. Access control is provided by systems that enable the individuals to be *granted* the licenses described above – to avoid the risk of coding access control rules into a repository application in a way that creates lock-in.
-
- -->
-### Principle 3: Use an extensible linked-data metadata format
-
-Linked Data allows:
-
-1.  Any conceivable data structure to be described
-
-2.  Vocabularies to be mixed-in as needed; from a core set for all data
-    to domain-specific to project or even dataset-specific terms; this
-    can be formalised using *Profiles*.
-
-3.  Interoperability with global research information systems
-    architectures, discovery services etc
-
-While LDaCA is part of the Humanities and Social Sciences and Indigenous
-Research Data Commons, this vision is by no means limited to that scope
--- these ideas are relevant to all domains where data is available as
-file-based objects at a scale that can be managed in file system-like
-storage.
-
-## References {#references .unnumbered}
-
-Barwick, Linda, and Nick Thieberger. 2018. "Unlocking the Archives." In
-*Proceedings of the 2017 XXI FEL Conference*, 135--39. FEL.
-<https://nthieberger.net/UnlockingArchives.pdf>.
-
-Grossman, Robert L., Allison Heath, Mark Murphy, Maria Patterson, and
-Walt Wells. 2016. "A Case for Data Commons: Toward Data Science as a
-Service." *Computing in Science & Engineering* 18 (5): 10--20.
-<https://doi.org/10.1109/MCSE.2016.92>.
