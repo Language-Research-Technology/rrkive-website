@@ -3,7 +3,7 @@
 title: PILARS Implementations - mid 2024
 rectangle "Implementations" {
 rectangle "PARADISEC" as parai
-rectangle "Nyngarn" as nyi
+rectangle "Nyingarn" as nyi
 rectangle "UTS Data portal" as uts
 rectangle "OMAA" as om
 rectangle "LDaCA" as ldaca
@@ -12,8 +12,8 @@ rectangle "LDaCA" as ldaca
 
 rectangle "Open Source Toolkits / Software" {
  rectangle "Oni" as oni
- rectangle "PARADISEC" as para
- rectangle "Nyingarn" as ny
+ rectangle "PARADISEC Code" as para
+ rectangle "Nyingarn Workspace" as ny
 
 }
 
@@ -47,7 +47,7 @@ rectangle "Storage" {
      
 ny --down--> NOCFL 
 para --down--> pr 
-pr -> OCFL
+pr .> OCFL
 oni --down--> OCFL
 
 ny --down--> ldacp 
