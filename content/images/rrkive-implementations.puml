@@ -1,6 +1,6 @@
 @startuml
 !include_many ./data-management-style.txt
-title: RRKive Implemnations\n(PILARS Comliant)
+title: PILARS Implementations - mid 2024
 rectangle "Implementations" {
 rectangle "PARADISEC" as parai
 rectangle "Nyngarn" as nyi
@@ -17,7 +17,7 @@ rectangle "Open Source Toolkits / Software" {
 
 }
 
-rectangle "Standards" {
+rectangle "Specs & Standards" {
 rectangle "Metadata" {
 rectangle "Languate Data Commons\nRO-Crate Profile" as ldacp {
 
@@ -39,7 +39,7 @@ rectangle "Storage" {
     rectangle "NOCFL" {
 
     }
-    rectangle "-TBC-" as pr {
+    rectangle "Proxyist" as pr {
 
     }
 }
@@ -47,6 +47,7 @@ rectangle "Storage" {
      
 ny --down--> NOCFL 
 para --down--> pr 
+pr -> OCFL
 oni --down--> OCFL
 
 ny --down--> ldacp 

@@ -354,16 +354,22 @@ enableRobotsTXT = true
     name = "Adoption"
     url = "/adoption/"
     weight = 5 
+
+  [[menu.main]]
+    identifier = "implementations"
+    name = "Implementations"
+    url = "/implementations/"
+    weight = 6 
   [[menu.main]]
     identifier = "standards"
     name = "Standards"
     url = "/standards/"
-    weight = 6 
+    weight = 7 
   [[menu.main]]
     identifier = "fundamentals"
     name = "Fundamental Concepts"
     url = "/fundamentals/"
-    weight = 7
+    weight = 8
 
 
     #  Search config

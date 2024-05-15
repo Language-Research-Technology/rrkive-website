@@ -4,13 +4,10 @@ draft: false
 title: RRKive Home
 ---
 
+This site collects resources related to implementing Archival Repository (RRKive) solutions as part of a *Data Commons* based on a set of Protocols know as [the PILARS]: Principles for Implementing Long-term Archival Repository Services.  <https://w3id.org/ldac/pilars>
 
+The PILARS are maintained as stand-alone project managed in a [Git repository](https://github.com/Language-Research-Technology/pilars).
 
-This site collects resources related to implementing Archival Repository (RRKive) solutions as part of a *Data Commons* based on a set of Protocols know as [PILARS]: Principles for Implementing Long-term Archival Repository Services.  <https://w3id.org/ldac/pilars>
-
-The PILARS protocols are maintained as stand-alone project managed in a [Git repository](https://github.com/Language-Research-Technology/pilars).
-
-[PILARS]: https://w3id.org/ldac/pilars "Principles for Implementing Long-term Archival Repository Services"
 
 # What's a Data Commons and where's the data in one?
 
@@ -36,7 +33,6 @@ and should be made accessible to the *right* people / agents. For some
 background on CARE and FAIR in a Data Commons context see this [Language Data Commons of Australia blog
 post](https://www.ldaca.edu.au/posts/fair-and-care/).
 
-[CARE and FAIR]: https://language-research-technology.github.io/pilars/principles.html "CARE and FAIR principles (Annotated for PILARS)"
 
 This web site looks at the *core services* and infrastructure needed to
 undertake the processes mentioned in the definition: managing,
@@ -57,9 +53,8 @@ This site is about:
 3.  Enabling the 'interoperability' mentioned in the definition of a
     Data Commons above.
 
-One of the key inspirations for [PILARS] was the approach taken by
-[PARADISEC](https://www.paradisec.org.au/about-us/) (Barwick and
-Thieberger (2018)) where data is stored and managed using a very simple
+One of the key inspirations for [the PILARS] was the approach taken by
+[PARADISEC](https://www.paradisec.org.au/about-us/) where data is stored and managed using a very simple
 architecture with data and metadata at its heart sitting, on top of
 commodity IT services; initially this was a file-system and is now
 cloud-based object storage. The key idea was that the data should always
@@ -102,3 +97,4 @@ The RRKive.org website is an initiative of the Language Data Commons of
 Australia; one of the partners of the [Australian Research Data Commons
 (ARDC)](https://ardc.edu.au). 
 
+{{% links %}}
