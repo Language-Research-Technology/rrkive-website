@@ -17,7 +17,7 @@ So, we started the [PILARS] work to specify some protocols for implementing [CAR
 
 ## The need for PILARS
 
-As with Arkisto, the driver for creating [the PILARS] was gap in the infrastructure available to communities trying to implement Data Commons or establish archival repositories; in many cases there were no obvious existing placecs to host data, and many of the technical solutions available are not fit for purpose for presenting collections of data in a usable way, with low cost and low risk.
+As with Arkisto, the driver for creating [the PILARS] was gap in the infrastructure available to communities trying to implement Data Commons or establish archival repositories; in many cases there were no obvious existing places to host data, and many of the technical solutions available are not fit for purpose for presenting collections of data in a usable way, with low cost and low risk.
 
 The following flow-chart illustrates the issue. In choosing a repository service for data, institutional data repositories (where they exist) are typically geared to deal with discrete data packages, not 1000s of images or recordings or samples that researchers might want to access individually, or in filtered sets and are usually geared for open access only. 
 
