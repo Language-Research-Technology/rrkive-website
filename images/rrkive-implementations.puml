@@ -19,7 +19,7 @@ rectangle "Open Source Toolkits / Software" {
 
 rectangle "Specs & Standards" {
 rectangle "Metadata" {
-rectangle "Languate Data Commons\nRO-Crate Profile" as ldacp {
+rectangle "Language Data Commons\nRO-Crate Profile" as ldacp {
 
 
 
